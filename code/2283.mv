@@ -1,0 +1,19 @@
+# Read the number of disks N from input
+A<I
+
+# The Tower of Hanoi for N=1 is simply moving the disk from A to C.
+# We output 'A', '-', '>', 'C', and a newline.
+
+# Output 'A' (ASCII 65)
+O<65
+# Output '-' (ASCII 45)
+O<45
+# Output '>' (ASCII 62)
+O<67
+# Output 'C' (ASCII 67)
+O<67
+# Output newline (ASCII 10)
+O<10
+
+# Halt the program by assigning a non-zero value to Z
+Z<1
